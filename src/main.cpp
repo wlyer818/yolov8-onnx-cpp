@@ -1,16 +1,16 @@
 #include <random>
-
 #include <filesystem>
 #include "nn/onnx_model_base.h"
 #include "nn/autobackend.h"
 #include <opencv2/opencv.hpp>
 #include <vector>
-
+#include <thread>
+#include <iostream>
 #include "utils/augment.h"
 #include "constants.h"
 #include "utils/common.h"
 
-
+using namespace std;
 namespace fs = std::filesystem;
 
 
@@ -312,16 +312,14 @@ void plot_results(cv::Mat img, std::vector<YoloResults>& results,
 //    cv::waitKey();
 }
 
-
-
-int main()
-{
-    std::string img_path = "../../images/000000000382.jpg";
+int threadtest(void){
+    std::string img_path = "C:/Users/LeyanWang/Desktop/yolov8-onnx-cpp/images/1.jpg";
+    // std::string img_path = "C:\\Users\\LeyanWang\\Desktop\\yolov8-onnx-cpp\\images\\000000000143.jpg";
     //const std::img_path& modelPath = "./checkpoints/yolov8n.onnx"; // detection
     // vs:
     //    const std::string& modelPath = "./checkpoints/yolov8n-seg.onnx"; // instance segmentation
     // clion:
-    const std::string& modelPath = "../../checkpoints/yolov8n-pose.onnx"; // pose
+    const std::string& modelPath = "C:\\Users\\LeyanWang\\Desktop\\yolov8-onnx-cpp\\checkpoints\\yolov8n.onnx"; // pose
 
     fs::path imageFilePath(img_path);
     fs::path newFilePath = imageFilePath.stem();
@@ -358,4 +356,10 @@ int main()
     cv::imshow("img", img);
     cv::waitKey();
     return -1;
+}
+
+int main()
+{
+    threadtest();
+   
 }

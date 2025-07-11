@@ -1,0 +1,10 @@
+^C:\USERS\LEYANWANG\DESKTOP\YOLOV8-ONNX-CPP\BUILD\CMAKEFILES\F7462454404C05FBF17D095AC2A67AD8\GENERATE.STAMP.RULE
+setlocal
+D:\cmake-4.1.0-rc1-windows-x86_64\bin\cmake.exe -SC:/Users/LeyanWang/Desktop/yolov8-onnx-cpp -BC:/Users/LeyanWang/Desktop/yolov8-onnx-cpp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/LeyanWang/Desktop/yolov8-onnx-cpp/build/yolotest.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/LeyanWang/Desktop/yolov8-onnx-cpp/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

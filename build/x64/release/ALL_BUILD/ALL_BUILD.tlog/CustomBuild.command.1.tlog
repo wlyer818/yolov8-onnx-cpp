@@ -1,0 +1,10 @@
+^C:\USERS\LEYANWANG\DESKTOP\YOLOV8-ONNX-CPP\CMAKELISTS.TXT
+setlocal
+D:\cmake-4.1.0-rc1-windows-x86_64\bin\cmake.exe -SC:/Users/LeyanWang/Desktop/yolov8-onnx-cpp -BC:/Users/LeyanWang/Desktop/yolov8-onnx-cpp/build --check-stamp-file C:/Users/LeyanWang/Desktop/yolov8-onnx-cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

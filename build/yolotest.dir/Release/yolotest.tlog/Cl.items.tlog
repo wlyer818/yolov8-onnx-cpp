@@ -1,0 +1,6 @@
+C:\Users\LeyanWang\Desktop\yolov8-onnx-cpp\src\main.cpp;C:\Users\LeyanWang\Desktop\yolov8-onnx-cpp\build\yolotest.dir\Release\main.obj
+C:\Users\LeyanWang\Desktop\yolov8-onnx-cpp\src\nn\autobackend.cpp;C:\Users\LeyanWang\Desktop\yolov8-onnx-cpp\build\yolotest.dir\Release\autobackend.obj
+C:\Users\LeyanWang\Desktop\yolov8-onnx-cpp\src\nn\onnx_model_base.cpp;C:\Users\LeyanWang\Desktop\yolov8-onnx-cpp\build\yolotest.dir\Release\onnx_model_base.obj
+C:\Users\LeyanWang\Desktop\yolov8-onnx-cpp\src\utils\augment.cpp;C:\Users\LeyanWang\Desktop\yolov8-onnx-cpp\build\yolotest.dir\Release\augment.obj
+C:\Users\LeyanWang\Desktop\yolov8-onnx-cpp\src\utils\common.cpp;C:\Users\LeyanWang\Desktop\yolov8-onnx-cpp\build\yolotest.dir\Release\common.obj
+C:\Users\LeyanWang\Desktop\yolov8-onnx-cpp\src\utils\ops.cpp;C:\Users\LeyanWang\Desktop\yolov8-onnx-cpp\build\yolotest.dir\Release\ops.obj
